@@ -1,0 +1,29 @@
+/* Styling for the background container */
+.background-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('SL-110521-46540-85.jpg'); /* Initial background */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 0.5s ease-in-out; /* Smooth background transition */
+}
+
+/* General styling for GIFs and QR Code */
+.gif {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 600px; /* Adjust width as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+/* Hidden class to initially hide elements */
+.hidden {
+    display: none;
+}
